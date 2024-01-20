@@ -1,0 +1,147 @@
+
+
+.your-choise{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #40ff4f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+}
+
+.-empty{
+    margin-top: 20px;
+    width: 100%;
+    height: 31px;
+    background-color: rgb(212, 212, 212);
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.soc{
+    width: 45px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.next-mod .modal__content{
+
+    width: 350px;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    padding: 40px 15px 40px 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.go-modal{
+    background-color: #e2ff40;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.modal__title
+{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vk{
+    background-image: url(/img/social/vk.png);
+}
+
+.inst{
+    background-image: url(/img/social/inst.png);
+}
+
+.tg{
+    background-image: url(/img/social/tg.png);
+}
+
+.ana{
+    background-image: url(/img/social/ana.jpg) !important;
+}
+
+.dan{
+    background-image: url(/img/social/dan.jpg) !important;
+}
+
+.das{
+    background-image: url(/img/social/das.jpg) !important;
+}
+
+.left_a
+{
+    animation: poavlenie_left 1s forwards;
+}
+
+.right_a
+{
+    animation: poavlenie_right 1s forwards;
+}
+
+.def_a
+{
+    animation: poavlenie 3s forwards;
+}
+
+.bott_a
+{
+    animation: poavlenie_bottom 2s forwards;
+}
+
+@keyframes poavlenie_left{
+    0%{
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes poavlenie_right{
+    0%{
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes poavlenie_bottom{
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes poavlenie{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
